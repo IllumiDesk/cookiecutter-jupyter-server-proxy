@@ -9,9 +9,9 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 
 setuptools.setup(
-    name="{{cookiecutter.org}}-{{cookiecutter.project_name}}-proxy",
+    name="jupyter-{{cookiecutter.executable}}-proxy",
     version='{{cookiecutter.version}}',
-    url="https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.org}}-{{cookiecutter.project_name}}-proxy",
+    url="https://github.com/{{cookiecutter.github_username}}/jupyter-{{cookiecutter.executable}}-proxy",
     author="{{cookiecutter.author_name}}",
     description="{{cookiecutter.author_email}}",
     long_description=long_description,
@@ -20,14 +20,14 @@ setuptools.setup(
 	keywords=['jupyter', '{{cookiecutter.project_name}}', 'jupyterhub'],
 	classifiers=['Framework :: Jupyter'],
     install_requires=[
-        'jupyter-server-proxy'
+        'jupyter-server-proxy>=1.5.0'
     ],
     entry_points={
         'jupyter_serverproxy_servers': [
-            '{{cookiecutter.project_name}} = {{cookiecutter.org}}_{{cookiecutter.project_name}}_proxy:setup_{{cookiecutter.project_name}}',
+            '{{cookiecutter.executable}} = jupyter_{{cookiecutter.executable}}_proxy:setup_{{cookiecutter.executable}}',
         ]
     },
     package_data={
-        '{{cookiecutter.org}}_{{cookiecutter.project_name}}_proxy': ['icons/{{cookiecutter.project_name}}.svg'],
+        'jupyter_{{cookiecutter.executable}}_proxy': ['icons/{{cookiecutter.executable}}.svg'],
     },
 )
