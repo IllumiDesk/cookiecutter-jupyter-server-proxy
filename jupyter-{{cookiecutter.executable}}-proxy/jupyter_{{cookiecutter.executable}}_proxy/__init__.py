@@ -34,7 +34,7 @@ def setup_{{cookiecutter.executable}}():
     return {
         'command': '_get_{{cookiecutter.executable}}_command',
         'timeout': 20,
-        'new_browser_tab': {{cookiecutter.is_browser_tab}},
+        'new_browser_tab': {{cookiecutter.is_new_browser_tab}},
         'launcher_entry': {
             'title': '{{cookiecutter.project_name}}',
             'icon_path': _get_icon_path()
