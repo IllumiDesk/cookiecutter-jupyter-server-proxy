@@ -4,7 +4,7 @@
     "author_email": "hello@illumidesk.com",
     "executable": "example: foo",
     "icon_name": "example: foo.svg",
-    "is_browser_tab": "True",
+    "is_new_browser_tab": "True",
     "project_name": "example: Foo IDE",
     "version": "0.1.0"
 }
