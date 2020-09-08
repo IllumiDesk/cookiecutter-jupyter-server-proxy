@@ -1,4 +1,4 @@
-# illumidesk-server-proxy
+# jupyter-server-proxy
 
 Opinionated `jupyter-server-proxy` cookiecutter project.
 

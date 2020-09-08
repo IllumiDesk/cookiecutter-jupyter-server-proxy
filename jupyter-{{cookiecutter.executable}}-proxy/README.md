@@ -1,4 +1,4 @@
-# IllumiDesk {{cookiecutter.project_name}}
+# jupyter-{{cookiecutter.executable}}-proxy
 
 This package was built using the [`jupyter-server-proxy` cookiecutter template](https://github.com/illumidesk/cookiecutter-jupyter-server-proxy).
 
@@ -12,7 +12,8 @@ This package was built using the [`jupyter-server-proxy` cookiecutter template](
 
 This package executes the standard `{{cookiecutter.executable}}` command. This command assumes the `{{cookiecutter.executable}}` command is available in the environment's `PATH`.
 
-### Install illumidesk-{{cookiecutter.executable}}-proxy
+
+### Install jupyter-{{cookiecutter.executable}}-proxy
 
 Install the package with pip:
 
