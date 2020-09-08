@@ -1,10 +1,10 @@
-  
 {
     "github_username": "illumidesk",
     "author_name": "IllumiDesk Team",
     "author_email": "hello@illumidesk.com",
-    "project_name": "",
-    "executable": "",
-    "extra_args": "",
+    "executable": "example: foo",
+    "icon_name": "example: foo.svg",
+    "is_browser_tab": "True",
+    "project_name": "example: Foo IDE",
     "version": "0.1.0"
 }
