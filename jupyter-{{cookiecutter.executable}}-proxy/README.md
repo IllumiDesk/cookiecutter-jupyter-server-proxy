@@ -15,10 +15,19 @@ This package executes the standard `{{cookiecutter.executable}}` command. This c
 
 ### Install jupyter-{{cookiecutter.executable}}-proxy
 
-Install the package with pip:
+1. Install the package with pip:
 
+```bash
+pip install git+https://github.com/{{cookiecutter.github_username}}/jupyter-{{cookiecutter.executable}}-proxy.git
 ```
-pip install jupyter-{{cookiecutter.executable}}-proxy
+
+2. Install and enable extension for Jupyter Classic and Jupyter Lab:
+
+```bash
+jupyter serverextension enable --sys-prefix --py jupyter_server_proxy \
+ && jupyter labextension install @jupyterlab/server-proxy@^2.1.1 \
+ && jupyter lab build -y \
+ && jupyter lab clean -y
 ```
 
 ## Notes
