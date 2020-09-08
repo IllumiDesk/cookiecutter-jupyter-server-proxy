@@ -13,10 +13,14 @@ This package was built using the [`jupyter-server-proxy` cookiecutter template](
 This package executes the standard `{{cookiecutter.executable}}` command. This command assumes the `{{cookiecutter.executable}}` command is available in the environment's `PATH`.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Install illumidesk-{{cookiecutter.executable}}-proxy
 =======
 ### Install illumidesk-{{cookiecutter.executable_name}}-proxy
 >>>>>>> 7bd7e09... update readme and vars
+=======
+### Install illumidesk-{{cookiecutter.executable}}-proxy
+>>>>>>> e95f276... remove executable_main
 
 Install the package with pip:
 
