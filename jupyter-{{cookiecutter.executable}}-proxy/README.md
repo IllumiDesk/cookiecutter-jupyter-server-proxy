@@ -21,7 +21,9 @@ This package executes the standard `{{cookiecutter.executable}}` command. This c
 pip install git+https://github.com/{{cookiecutter.github_username}}/jupyter-{{cookiecutter.executable}}-proxy.git
 ```
 
-2. Install and enable extension for Jupyter Classic and Jupyter Lab:
+2. (Optional) Replace icon in `icons` folder
+
+3. Install and enable extension for Jupyter Classic and Jupyter Lab:
 
 ```bash
 jupyter serverextension enable --sys-prefix --py jupyter_server_proxy \
