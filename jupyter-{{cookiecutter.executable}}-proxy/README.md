@@ -17,7 +17,7 @@ This package executes the standard `{{cookiecutter.executable}}` command. This c
 Install the package with pip:
 
 ```
-pip install illumidesk-{{cookiecutter.executable}}-proxy
+pip install jupyter-{{cookiecutter.executable}}-proxy
 ```
 
 ## Notes
