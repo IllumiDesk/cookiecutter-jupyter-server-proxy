@@ -15,10 +15,16 @@ This package executes the standard `{{cookiecutter.executable}}` command. This c
 
 ### Install jupyter-{{cookiecutter.executable}}-proxy
 
-Install the package with pip:
+1. Clone repo:
 
 ```
-pip install jupyter-{{cookiecutter.executable}}-proxy
+git clones https://github.com/{{cookiecutter.github_username}}/jupyter-{{cookiecutter.executable}}-proxy
+```
+
+2. Install the package in editable mode with pip:
+
+```
+pip install -e .
 ```
 
 ## Notes

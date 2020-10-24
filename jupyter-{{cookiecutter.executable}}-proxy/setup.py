@@ -28,6 +28,6 @@ setuptools.setup(
         ]
     },
     package_data={
-        'jupyter_{{cookiecutter.executable}}_proxy': ['icons/{{cookiecutter.executable}}.svg'],
+        'jupyter_{{cookiecutter.executable}}_proxy': ['icons/{{cookiecutter.icon_name}}'],
     },
 )
