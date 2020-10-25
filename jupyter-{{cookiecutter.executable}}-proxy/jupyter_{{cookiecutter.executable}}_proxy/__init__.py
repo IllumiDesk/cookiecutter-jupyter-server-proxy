@@ -13,7 +13,7 @@ def setup_{{cookiecutter.executable}}():
     """
     def _get_icon_path():
         return os.path.join(
-            os.path.dirname(os.path.abspath(__file__)), 'icons', '{{cookiecutter.icon_name}}'
+            os.path.dirname(os.path.abspath(__file__)), 'icons', '{{cookiecutter.icon}}'
     )
 
     # Make sure executable is in $PATH
