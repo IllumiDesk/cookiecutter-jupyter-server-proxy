@@ -61,34 +61,3 @@ jupyter lab build
 ## License
 
 BSD 3-Clause
-
-
-
-## Install jupyter-{{cookiecutter.executable}}-proxy
-
-Install the package directly from the git repo or install in editable mode.
-
-1. Clone and install the package from the git repo:
-
-```
-git clone https://github.com/{{cookiecutter.github_username}}/jupyter-{{cookiecutter.executable}}-proxy.git
-```
-
-2. Install the package in editable mode with pip:
-
-```
-pip install -e .
-```
-
-## Notes
-
-- If you would like to use a docker container, you may use any of the [Jupyter docker-stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/) images.
-- You may also run this package with `binder`.
-
-## Credits
-
-- [`jupyter-server-proxy`](https://github.com/jupyterhub/jupyter-server-proxy)
-
-## License
-
-BSD 3-Clause
