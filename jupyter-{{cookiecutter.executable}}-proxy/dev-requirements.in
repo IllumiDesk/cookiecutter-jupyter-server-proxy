@@ -2,5 +2,6 @@ black
 docker
 docker-compose
 flake8
+jupyter-repo2docker
 pip-tools
 pytest
