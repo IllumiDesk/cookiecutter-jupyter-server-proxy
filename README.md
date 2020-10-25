@@ -1,4 +1,4 @@
-# jupyter-server-proxy
+# Cookie Cutter for a `jupyter-server-proxy` Project
 
 Opinionated `jupyter-server-proxy` cookiecutter project.
 
@@ -28,6 +28,23 @@ pip install "cookiecutter>=1.7.0"
 ```bash
 cookiecutter https://github.com/illumidesk/cookiecutter-jupyter-server-proxy
 ```
+
+## Development
+
+1. Create and activate virtual environment:
+
+```bash
+virtualenv -p python3 venv
+source venv/bin/activate
+```
+
+2. Install dependencies:
+
+```bash
+pip install -r dev-requirements.txt
+```
+
+> Use `pip-compile` to update development requirements. Update dev-requirements.in and then run `pip-compile dev-requirements.in` to create a new version of `dev-requirements.txt`.
 
 ## Credits
 
