@@ -1,4 +1,4 @@
-# jupyter-server-proxy
+# Cookie Cutter for a `jupyter-server-proxy` Project
 
 Opinionated `jupyter-server-proxy` cookiecutter project.
 

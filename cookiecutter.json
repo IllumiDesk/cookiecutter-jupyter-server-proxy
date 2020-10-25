@@ -4,7 +4,7 @@
     "author_email": "hello@illumidesk.com",
     "executable": "example: foo",
     "executable_version": "example (semantic versioning): 1.2.3",
-    "icon_name": "example: foo.svg",
+    "icon": "example: foo.svg",
     "is_new_browser_tab": "True",
     "project_name": "example: Foo IDE",
     "version": "0.1.0"
