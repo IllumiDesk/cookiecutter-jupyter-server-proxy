@@ -26,8 +26,6 @@ help:
 
 build: ## build the latest image for a stack
 	${VENV_BIN}/jupyter-repo2docker --no-run --user-id 1000 --user-name jovyan --image-name $(OWNER)/{{cookiecutter.executable}}:$(TAG) .
-	@echo -n "Built image size: "
-	@docker images $(OWNER)/{{cookiecutter.executable}}:$(TAG) --format "{{.Size}}"
 
 clean-all: ## remove built images and running containers (including those w/ exit status)
 	@docker rm -f $(shell docker ps -aq)
