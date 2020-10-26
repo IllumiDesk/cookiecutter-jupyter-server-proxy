@@ -15,7 +15,7 @@ This package was built using the [`jupyter-server-proxy` cookiecutter template](
 - [Docker](https://docs.docker.com/get-docker/)
 - [docker-compose](https://docs.docker.com/compose/install/)
 
-This package executes the standard `{{cookiecutter.executable}}` command. This command assumes the `{{cookiecutter.executable}}` command is available in the environment's `PATH`. For convenience, the tests include cases that assert outputs when running the `pgweb` command from a docker container. If you don't need to run tests with this setup running in a docker container, then remove the `tests/test_pgweb_docker.py` file or comment out the code in the file.
+This package executes the standard `{{cookiecutter.executable}}` command. This command assumes the `{{cookiecutter.executable}}` command is available in the environment's `PATH`. For convenience, the tests include cases that assert outputs when running the `{{cookiecutter.executable}}` command from a docker container. If you don't need to run tests with this setup running in a docker container, then remove the `tests/test_{{cookiecutter.executable}}_docker.py` file or comment out the code in the file.
 
 ## Quick Starts
 
